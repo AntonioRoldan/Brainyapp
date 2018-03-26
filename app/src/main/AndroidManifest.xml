@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.antonio.brainyapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/brainyapp"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Introsplash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Menu"/>
+        <activity android:name=".Intros.Cerebrum_intro"/>
+        <activity android:name=".Intros.Brainstem_intro"/>
+        <activity android:name=".Intros.Cerebellum_intro"/>
+        <activity android:name=".Intros.Corpus_callosum_intro"/>
+        <activity android:name=".Corpuscallosum"/>
+        <activity android:name=".Sliders.Corpuscallosum_slider"/>
+        <activity android:name=".Brainstem"/>
+        <activity android:name=".Sliders.Brainstem_slider"/>
+        <activity android:name=".Cerebellum"/>
+        <activity android:name=".Sliders.Cerebellum_slider"/>
+        <activity android:name=".Cerebrum"/>
+        <activity android:name=".Sliders.Cerebrum_slider"/>
+        <activity android:name=".Sliders.FrontalSlider"/>
+        <activity android:name=".Sliders.TemporalSlider"/>
+        <activity android:name=".Sliders.ParietalSlider"/>
+        <activity android:name=".Sliders.OccipitalSlider"/>
+    </application>
+
+</manifest>
